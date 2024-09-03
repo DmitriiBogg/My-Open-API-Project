@@ -1,0 +1,44 @@
+/*------------google fonts------------*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #6f9bf3, #e1e3e7);
+}
+
+/*------------h1,h2,h...however styles------------*/
+h1,
+h2 {
+  text-align: center;
+  color: #333;
+  filter: drop-shadow(5px 5px 20px white);
+}
+
+/*------------container------------*/
+#max-min-data {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  font-size: 24px;
+  color: #333;
+}
+
+/*------------temperatures------------*/
+#max-min-data p {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  filter: drop-shadow(5px 5px 20px rgb(22, 89, 161));
+}
+
+#max-min-data :hover {
+  background-color: #08d2f1;
+}
