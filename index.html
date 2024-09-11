@@ -3,13 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Weather Forecast</title>
+    <title>Weather and Air Quality</title>
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <h1>Weather Forecast</h1>
-    <div id="api-data"><h2>Loading temperatures:</h2></div>
-    <div id="max-min-data">Loading max and min temperatures</div>
+    <header>
+      <h1>Weather and Air Quality</h1>
+    </header>
+
+    <div class="container">
+      <!-- Bottoms display switching -->
+      <div class="buttons">
+        <button id="weather-btn">Weather</button>
+        <button id="air-quality-btn">Air Quality</button>
+      </div>
+
+      <!-- Temperatures Container -->
+      <div id="weather-data">
+        <h2>Weather Information:</h2>
+      </div>
+
+      <!-- Quality Container -->
+      <div id="air-quality-data" style="display: none">
+        <h2>Air Quality Information:</h2>
+      </div>
+    </div>
+
     <script src="index.js"></script>
   </body>
 </html>
