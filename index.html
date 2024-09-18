@@ -5,25 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather and Air Quality</title>
     <link rel="stylesheet" href="index.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
   </head>
   <body>
+    <video autoplay muted loop id="background-video">
+      <source src="/media/3129752-uhd_3840_2160_30fps.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
     <header>
       <h1>Weather and Air Quality</h1>
-    </header>
-
-    <div class="container">
-      <!-- Bottoms display switching -->
+      <!--Bottoms for switch-->
       <div class="buttons">
-        <button id="weather-btn">Weather</button>
-        <button id="air-quality-btn">Air Quality</button>
-      </div>
+        <button id="weather-btn">
+          <i class="fas fa-cloud-sun icons_for_buttons"></i>Weather
+        </button>
 
-      <!-- Temperatures Container -->
+        <button id="air-quality-btn">
+          <i class="fas fa-smog icons_for_buttons"></i>Air Quality
+        </button>
+      </div>
+    </header>
+    <!--container-->
+    <div class="container">
       <div id="weather-data">
         <h2>Weather Information:</h2>
       </div>
 
-      <!-- Quality Container -->
       <div id="air-quality-data" style="display: none">
         <h2>Air Quality Information:</h2>
       </div>
