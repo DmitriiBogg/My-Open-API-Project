@@ -28,8 +28,8 @@ document.addEventListener("DOMContentLoaded", () => {
         const cityDisplay = `<div class="city-card">
         <h3>Weather for <br>${cityName}:</h3>
         <div class="temperature">
-          <p><strong>Max Temperature:</strong> ${maxTemp} °C <br> <strong>Time:</strong> ${times[0]}</p>
-          <p><strong>Min Temperature:</strong> ${minTemp} °C <br> <strong>Time:</strong> ${times[0]}</p>
+          <p><strong>Max Temperature:</strong> ${maxTemp} °C <br> <strong>Date:</strong> ${times[0]}</p>
+          <p><strong>Min Temperature:</strong> ${minTemp} °C <br> <strong>Date:</strong> ${times[0]}</p>
         </div>
       </div>`;
 
@@ -50,8 +50,8 @@ document.addEventListener("DOMContentLoaded", () => {
         const airQualityDisplay = `<div class="city-card">
         <h3>Air Quality for <br>${cityName}:</h3>
         <div class="air-quality-details">
-          <p><strong>PM10:</strong> ${pm10} µg/m³ <br> <strong>Time:</strong> ${airQualityTime}</p>
-          <p><strong>PM2.5:</strong> ${pm25} µg/m³ <br> <strong>Time:</strong> ${airQualityTime}</p>
+          <p><strong>PM10:</strong> ${pm10} µg/m³ <br> <strong>Date:</strong> ${airQualityTime}</p>
+          <p><strong>PM2.5:</strong> ${pm25} µg/m³ <br> <strong>Date:</strong> ${airQualityTime}</p>
         </div>
       </div>`;
 
